@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Keylogger.cpp
+// Name        : keylogger.cpp
 // Author      : Pelayo Jose Lluna Gonzalez
 // Version     : 1.0.0
 // Copyright   : License Apache 2
