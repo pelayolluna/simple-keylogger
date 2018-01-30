@@ -3,7 +3,7 @@
 **WARNING! Use only for testing purposes and under your own responsability.**
 
 ## Description
-Simple keylogger for testing purposes developed for ["The Complete Ethical Hacking Course: Beginner to Advanced!" at Udemy](https://www.udemy.com/penetration-testing/).
+Simple keylogger for testing purposes developed in ["The Complete Ethical Hacking Course: Beginner to Advanced!" at Udemy](https://www.udemy.com/penetration-testing/).
 
 <p align="center">
     <a href="http://pelayolluna.com/images/PDF/UC-7ENC0TZX.pdf" target="_blank" title="UC-7ENC0TZX"><img src="http://pelayolluna.com/images/PDF/UC-7ENC0TZX.png" alt="UC-7ENC0TZX"></a>
